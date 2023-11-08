@@ -28,9 +28,11 @@ html {
 #nav {
     
 }
+#nav > li {
+    display: inline-block;
+}
 
 #nav li {
-    display: inline;
     position: relative;
 }
 
@@ -42,10 +44,10 @@ html {
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
-    display: inline-block;
+    display: block;
 }
 
-#nav li:hover a {
+#nav > li:hover > a {
     color: #000;
     background-color: #ccc;
 }
@@ -54,6 +56,15 @@ html {
     /* display: none; */
     position: absolute;
     background-color: #fff;
+}
+
+#nav .subnav li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav a {
+    color: #000;
 }
 
 #slider {
