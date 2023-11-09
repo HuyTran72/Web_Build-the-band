@@ -23,6 +23,10 @@ html {
 #header {
     height: 46px;
     background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #nav {
@@ -88,17 +92,24 @@ html {
 
 #header .search-btn {
     float: right;
+    padding: 0 21px;
 }
 
 #header .search-icon {
     color: #fff;
     font-size: 20px;
     line-height: 46px;
-    padding: 0 21px;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
 }
 
 #slider {
-
+    height: 400px;
+    background: green;
+    margin-top: 46px;
 }
 
 #content {
