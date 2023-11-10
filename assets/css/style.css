@@ -27,6 +27,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 #nav {
@@ -119,7 +120,6 @@ html {
     color: #fff;
     text-align: center;
     width: 100%;
-    font-size: 15px;
 }
 
 #slider .text-heading {
@@ -129,11 +129,34 @@ html {
 
 #slider .text-description {
     margin-top: 25px;
+    font-size: 15px;
 }
 
 #content {
     
 }
+
+#content .content-section {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    text-align: center;
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+}
+
+about-text{
+
+}
+
 
 #footer {
     
