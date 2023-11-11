@@ -299,13 +299,23 @@ color: #757575;
 }
 
 .modal-header {
-
+    background-color: #009668;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
 }
 
 .modal-container {
     background-color: #fff;
     width: 900px;
     min-height: 200px;
+}
+
+.icon-bag {
+    margin-right: 16px;
 }
 
 .modal-body {
