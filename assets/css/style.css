@@ -334,15 +334,22 @@ color: #757575;
 }
 
 .modal-body {
+    padding: 16px;
 
 }
 
 .modal-label {
-
+    display: block;
+    font-size: 15px;
+    margin-bottom: 12px;
 }
 
 .modal-input {
-
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
 }
 
 
