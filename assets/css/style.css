@@ -293,7 +293,7 @@ color: #757575;
     right: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -308,9 +308,14 @@ color: #757575;
     color: #fff;
 }
 
+.modal.open {
+    display: none;
+}
+
 .modal-container {
     background-color: #fff;
     width: 900px;
+    max-width: calc(100%-32px);
     min-height: 200px;
     position: relative;
 }
@@ -368,7 +373,12 @@ color: #757575;
 }
 
 /* Footer */
-#footer {
-    
+.modal-footer {
+    padding: 16px;
+    text-align: right;
+}
+
+.modal-footer a {
+    color: #2196F3;
 }
 
