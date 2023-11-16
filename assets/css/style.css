@@ -352,6 +352,20 @@ color: #757575;
     margin-bottom: 30px;
 }
 
+#buy-tickets {
+    background-color: #009668;
+    border: none;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+#buy-tickets:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
 
 /* Footer */
 #footer {
