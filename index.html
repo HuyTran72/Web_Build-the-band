@@ -132,9 +132,9 @@
         </div>
     </div>
 
-    <div class="modal open">
+    <div class="modal open js-modal">
         <div class="modal-container">
-            <div class="model-close">
+            <div class="model-close js-modal-close">
                 <i class="ti-close"></i>
             </div>
 
@@ -172,6 +172,23 @@
 
     <script>
         const buyBtns = document.querySelectorAll('.js-buy-tickets')
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-modal-close')
+
+        //show add/remove modal
+        function showbuyTickets() {
+            modal.classList.add('open')
+        }
+
+        function hidebuyTickets() {
+            modal.classList.remove('open')
+        }
+
+        for(const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click',showbuyTickets )
+        }
+
+        modalClose.addEventListener('click', hidebuyTickets)
     </script>
 </body>
 </html>

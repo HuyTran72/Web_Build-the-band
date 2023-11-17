@@ -309,7 +309,7 @@ color: #757575;
 }
 
 .modal.open {
-    display: none;
+    display: flex;
 }
 
 .modal-container {
