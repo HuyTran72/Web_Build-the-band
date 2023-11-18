@@ -184,11 +184,15 @@
             modal.classList.remove('open')
         }
 
+        //loop button tag and click behavior
         for(const buyBtn of buyBtns) {
             buyBtn.addEventListener('click',showbuyTickets )
         }
 
+        //hide click button
         modalClose.addEventListener('click', hidebuyTickets)
+        
+        modal.addEventListener('click', hidebuyTickets)
     </script>
 </body>
 </html>
