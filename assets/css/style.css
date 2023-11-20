@@ -46,6 +46,10 @@ html {
 .col-half {
     width: 50%;
 }
+
+.col-full {
+    width: 100%;
+}
 /* Main */
 #main {
     
