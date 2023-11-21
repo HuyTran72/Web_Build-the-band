@@ -35,6 +35,20 @@ html {
     margin-top: 16px !important; 
 }
 
+.btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
 .row {
     margin-left: -8px;
     margin-right: -8px;
@@ -303,19 +317,7 @@ color: #757575;
     line-height: 1.6;
 }
 
-.place-buy-btn {
-    color: #fff;
-    background-color: #000;
-    text-decoration: none;
-    padding: 11px 20px;
-    display: inline-block;
-    margin-top: 15px;
-}
 
-.place-buy-btn:hover {
-    color: #000;
-    background-color: #ccc;
-}
 
 .modal {
     position: fixed;
