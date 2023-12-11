@@ -89,7 +89,7 @@ html {
 
 /* Main */
 #main {
-    
+    overflow: hidden;
 }
 
 #header {
