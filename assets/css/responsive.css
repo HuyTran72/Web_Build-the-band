@@ -23,6 +23,10 @@
         display: inline-block;
     }
 
+    #nav li a {
+        padding: 1px 24px;
+    }
+
     #nav .subnav {
         position: initial;
         background-color: #333;
@@ -30,7 +34,9 @@
 
     #nav .subnav a{
         color: #fff;
+        padding: 5px 41px;
     }
+
     #header {
         overflow: hidden;
     }
